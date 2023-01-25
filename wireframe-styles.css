@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+/* .border-1 {
+  border: 1px solid green;
+}
+.border-2 {
+  border: 1px solid blue;
+}
+.border-3 {
+  border: 1px solid pink;
+} */
+.redish-bg {
+  background-color: rgb(237, 93, 93);
+}
+/* .flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /* background-color: blueviolet; */
+}
+div.main-container {
+  border: 1px solid red;
+}
+header, section {
+  border: 1px dotted #40798b;
+  height: 200px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div.white-bg {
+  height: 150px;
+  width: 300px;
+}
+section.skills {
+  display: flex;
+  flex-direction: column;
+}
+section.skills h3{
+  flex:1;
+  margin: 0;
+}
+section.skills main.skills {
+  display: flex;
+  flex:4;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+section.skills main.skills div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+section.skills main.skills div:nth-of-type(2){ 
+  margin-top: 10px;
+}
+div.column.border-3 {
+  background-color: magenta;
+}
+.bg-img {
+  border: 2px solid black;
+  height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+img {
+  height: 100%;
+  width: auto;
+}
+@media screen {
+  
+}
